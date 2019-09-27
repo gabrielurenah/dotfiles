@@ -1,0 +1,16 @@
+[user]
+	name = gabrielurena
+	email = gabriel.uh@hotmail.com
+[merge]
+	tool = p4merge
+[alias]
+	s = status
+	ci = commit -m
+	last = log -1 HEAD
+	log-pr = log --graph --pretty=format:'%h - %d %s (%cr) <%an>'
+  reb-master = pull --rebase origin master
+  p = pull
+  pom = pull origin master
+  ch = checkout
+  br = branch
+  brd = branch -D
