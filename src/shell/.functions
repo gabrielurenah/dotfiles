@@ -1,0 +1,13 @@
+
+function o() {
+  if [[ "$#" == 0 ]]; then
+    open .;
+  else
+    open "$@";
+  fi;
+}
+
+function mkd() {
+  mkdir -p "$@" && cd "$_";
+}
+
