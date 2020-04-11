@@ -1,6 +1,5 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-brew "Installing brew cask..."
 brew tap caskroom/cask
 
 # Dev Tools
@@ -8,6 +7,7 @@ brew install git
 brew cask install iterm2
 brew install docker   
 brew cask install postman
+brew cask install the-unarchiver
 
 # Communication Apps
 brew cask install slack
