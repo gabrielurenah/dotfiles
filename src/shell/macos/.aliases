@@ -1,0 +1,28 @@
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Lock screen.
+
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Shorter commands for `Homebrew`.
+
+alias brewd="brew doctor"
+alias brewi="brew install"
+alias brewr="brew uninstall"
+alias brews="brew search"
+alias brewu="brew update \
+                && brew upgrade \
+                && brew cleanup"
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Get local IP.
+
+alias local-ip="ipconfig getifaddr en0"
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Extras
+
+alias ..="cd .."
+alias dl="cd ~/Downloads"
+alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
+alias wrk="cd ~/Documents/Workspace"
