@@ -4,6 +4,7 @@ brew tap caskroom/cask
 
 # Dev Tools
 brew install git
+brew install yarn
 brew cask install iterm2
 brew install docker   
 brew cask install postman
