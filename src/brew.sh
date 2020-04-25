@@ -10,6 +10,7 @@ brew install yarn
 brew cask install iterm2
 brew install docker   
 brew cask install postman
+brew cask install ngrok
 
 # Communication Apps
 brew cask install slack
@@ -28,3 +29,4 @@ brew cask install spotify
 # General
 brew cask install the-unarchiver
 brew cask install flux
+brew cask install spectacle
