@@ -11,14 +11,6 @@ function mkd() {
   mkdir -p "$@" && cd "$_";
 }
 
-function wrk() {
-  if [[ "$#" == 0 ]]; then
-    cd ~/Documents/Workspace;
-  else
-    cd ~/Document/$1;
-  fi;
-}
-
 function gacp() {
   if [[ -z "$1" ]]; then
     echo "No argument supplied";
