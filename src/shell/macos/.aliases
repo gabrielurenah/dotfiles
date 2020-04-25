@@ -22,12 +22,6 @@ alias local-ip="ipconfig getifaddr en0"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Extras
 
--='cd -'
-..='cd ..'
-...=../..
-....=../../..
-.....=../../../..
-......=../../../../..
 1='cd -'
 2='cd -2'
 3='cd -3'
@@ -73,7 +67,6 @@ globurl='noglob urlglobber '
 glog='git log --oneline --decorate --graph'
 gloga='git log --oneline --decorate --graph --all'
 gp='git push'
-'gpf!'='git push --force'
 grb='git rebase'
 grba='git rebase --abort'
 grbc='git rebase --continue'
@@ -97,13 +90,12 @@ gsts='git stash show --text'
 gstu='git stash --include-untracked'
 gsu='git submodule update'
 gup='git pull --rebase'
-history=omz_history
 l='ls -lah'
 la='ls -lAh'
 ll='ls -lh'
 ls='ls -G'
 lsa='ls -lah'
 lsd='ls -lF  | grep --color=never '\''^d'\'
-local-ip='ipconfig getifaddr en0'
 md='mkdir -p'
 rd=rmdir
+wrk='cd ~/Documents/Workspace'
