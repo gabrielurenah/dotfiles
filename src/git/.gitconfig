@@ -1,3 +1,6 @@
 [user]
-	name = Gabriel Urena 
-	email = gabriel.uh@hotmail.com
+	name = Gabriel Urena
+	email = gabriel.uh@hotmail.com 
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+
