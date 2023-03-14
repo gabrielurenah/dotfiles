@@ -22,13 +22,18 @@ neovim :
 	ln -s $(HOME)/Documents/workspace/dotfiles/neovim $(HOME)/.config/nvim
 
 brewmybeer :
-	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+	@echo "test"
+	/bin/bash -c "$$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	sh ./src/brew.sh
 
 ohmyzsh :
 	bash ./src/shell/ohmyzsh.sh
 
-all : git install_nvm zsh neovim brewmybeer ohmyzsh
+configure-macos :
+	@echo "updating the settings"
+	sh ./src/preferences/macos/.macos
 
-.PHONY : all default git install_nvm zsh neovim brewmybeer ohmyzsh
+all : git install_nvm zsh neovim brewmybeer ohmyzsh configure-macos
+
+.PHONY : all default git install_nvm zsh neovim brewmybeer ohmyzsh configure-macos
 
