@@ -78,7 +78,7 @@ sudo pmset -b sleep 5
 # Screen                                                                      #
 ###############################################################################
 
-# Save screenshots to the desktop
+# Save screenshots to the Documents directory
 # check if directory already exists
 [ -d ~/Documents/Screenshots ] || mkdir ~/Documents/Screenshots 
 defaults write com.apple.screencapture location -string "${HOME}/Documents/Screenshots"
